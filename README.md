@@ -1,4 +1,4 @@
-# JavaReedSolomon
+##JavaReedSolomon
 
 This is a simple and efficient Reed-Solomon implementation in Java,
 which was originally built at [Backblaze](https://www.backblaze.com).
@@ -58,3 +58,4 @@ storage pod:
 ```
 
 ![Bar Chart of Benchmark Results](notes/benchmark_on_storage_pod.png)
+ 
