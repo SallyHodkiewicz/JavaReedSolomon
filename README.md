@@ -1,4 +1,4 @@
-##JavaReedSolomon
+* JavaReedSolomon
 
 This is a simple and efficient Reed-Solomon implementation in Java,
 which was originally built at [Backblaze](https://www.backblaze.com).
@@ -28,7 +28,7 @@ you may be interested in using the Intel SIMD instructions to speed
 up the Galois field multiplication.  You can read more about that 
 in the paper on [Screaming Fast Galois Field Arithmetic](http://www.kaymgee.com/Kevin_Greenan/Publications_files/plank-fast2013.pdf).
 
-## Performance Notes
+!# Performance Notes
 
 The performance of the inner loop depends on the specific processor
 you're running on.  There are twelve different permutations of the
@@ -58,4 +58,4 @@ storage pod:
 ```
 
 ![Bar Chart of Benchmark Results](notes/benchmark_on_storage_pod.png)
- 
+  
